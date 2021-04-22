@@ -30,7 +30,7 @@ require('webpack-glsl!./my-lovely-shader.glsl');
         loaders: [
             {
                 test: /\.glsl$/,
-                loader: 'webpack-glsl'
+                loader: 'webpack-glsl-loader'
             }
         ]
     }
